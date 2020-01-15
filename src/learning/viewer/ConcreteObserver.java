@@ -1,0 +1,1 @@
+package learning.viewer;public class ConcreteObserver implements Obsever {    @Override    public void update(String msg){        System.out.println("消费者  "+this.hashCode()+"  收到通知：  "+msg);    }}

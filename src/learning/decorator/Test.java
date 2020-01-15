@@ -1,0 +1,1 @@
+package learning.decorator;public class Test {    public static void main(String[] args){        Car bus=new OpenFoglight(new Bus());        Car taxi=new OpenFoglight(new Taxi());        bus=new TurnOnWipers(bus);        taxi=new TurnOnWipers(taxi);        bus.run();        taxi.run();    }}

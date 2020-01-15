@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="SWJ_POI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SWJ_POI_jar</output-path>
+    <root id="root">
+      <element id="archive" name="SWJ_POI.jar">
+        <element id="module-output" name="SWJ_POI" />
+      </element>
+      <element id="library" level="module" name="poi-ooxml-3.17-beta1.jar" module-name="SWJ_POI" />
+      <element id="library" level="module" name="junit-4.12.jar" module-name="SWJ_POI" />
+      <element id="library" level="module" name="poi-excelant-3.17-beta1.jar" module-name="SWJ_POI" />
+      <element id="library" level="module" name="poi-3.17-beta1.jar" module-name="SWJ_POI" />
+      <element id="library" level="module" name="poi-examples-3.17-beta1.jar" module-name="SWJ_POI" />
+      <element id="library" level="project" name="activation-1.11" />
+      <element id="library" level="module" name="poi-ooxml-schemas-3.17-beta1.jar" module-name="SWJ_POI" />
+      <element id="library" level="module" name="log4j-1.2.17.jar" module-name="SWJ_POI" />
+      <element id="library" level="module" name="commons-codec-1.10.jar" module-name="SWJ_POI" />
+      <element id="library" level="module" name="poi-scratchpad-3.17-beta1.jar" module-name="SWJ_POI" />
+      <element id="library" level="module" name="commons-collections4-4.1.jar" module-name="SWJ_POI" />
+      <element id="library" level="project" name="activation-1.1" />
+      <element id="library" level="project" name="fastjson-1.2.11" />
+      <element id="library" level="module" name="curvesapi-1.04.jar" module-name="SWJ_POI" />
+      <element id="library" level="module" name="xmlbeans-2.6.0.jar" module-name="SWJ_POI" />
+    </root>
+  </artifact>
+</component>

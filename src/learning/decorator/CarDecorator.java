@@ -1,0 +1,1 @@
+package learning.decorator;public class CarDecorator extends Car {    protected Car car;    CarDecorator(Car car) {        this.car = car;    }    protected void checkUp() {        System.out.println("检查车况");    }    @Override    public void run() {        car.run();    }}

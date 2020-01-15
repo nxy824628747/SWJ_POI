@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ofd:Page xmlns:ofd="http://www.ofdspec.org"><ofd:Content><ofd:Layer ID="7" TYPE="Background"><ofd:ImageObject ID="8" ResourceID="9" Boundary="0 0 400.0 250.0" CTM="400.0 0 0 250.0 0 0" /></ofd:Layer><ofd:Layer ID="10" /></ofd:Content><ofd:Area><ofd:PhysicalBox>0 0 400.0 250.0</ofd:PhysicalBox><ofd:ApplicationBox>0 0 400.0 250.0</ofd:ApplicationBox><ofd:ContentBox>0 0 400.0 250.0</ofd:ContentBox></ofd:Area></ofd:Page>

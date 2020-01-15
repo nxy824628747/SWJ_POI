@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ofd:Signature xmlns:ofd="http://www.ofdspec.org">
+	<ofd:SignedInfo>
+		<ofd:Provider ProviderName="BJCA-OES" Company="BJCA" Version="2.0.0"/>
+		<ofd:SignatureMethod>SM3WithSM2</ofd:SignatureMethod>
+		<ofd:SignatureDateTime>2019-08-17T18:23:21</ofd:SignatureDateTime>
+		<ofd:References CheckMethod="SM3">
+			<ofd:Reference FileRef="/Doc_0/Document.xml">
+				<ofd:CheckValue>QArmb0Lcx8LhQA9zkx25lZ6mRtuPgjow3xzmhnvVRLM=</ofd:CheckValue>
+			</ofd:Reference>
+			<ofd:Reference FileRef="/Doc_0/PublicRes.xml">
+				<ofd:CheckValue>pKfxGG6dJXOxuf2QvqfyABS7PmKinij0J6h1s7qw6zc=</ofd:CheckValue>
+			</ofd:Reference>
+			<ofd:Reference FileRef="/Doc_0/DocumentRes.xml">
+				<ofd:CheckValue>6zqZinRwi9TTgIaiKkDRasS5W6g4vrSE1YbJn1SIQKU=</ofd:CheckValue>
+			</ofd:Reference>
+			<ofd:Reference FileRef="/Doc_0/Res/IMAGE_4.jpg">
+				<ofd:CheckValue>/TwDYyol5xjGfWgm7eKV3pMXcRvOadEqIAI1F+D8pD8=</ofd:CheckValue>
+			</ofd:Reference>
+			<ofd:Reference FileRef="/Doc_0/Res/IMAGE_9.jpg">
+				<ofd:CheckValue>MPavcmINHf3lbpAcYp+lE0GT1xZa5efmp/XILGLF/5M=</ofd:CheckValue>
+			</ofd:Reference>
+			<ofd:Reference FileRef="/Doc_0/Pages/Page_0/Content.xml">
+				<ofd:CheckValue>UudnSsIP9RISX7gUBAPTRLjoQ3N3tAhTkoDXD4dQ8Jk=</ofd:CheckValue>
+			</ofd:Reference>
+			<ofd:Reference FileRef="/Doc_0/Signs/Sign_0/Seal.esl">
+				<ofd:CheckValue>XGIEEKt/Qr8lqtVA7Qzih4hkFcvRzHyd2PYQYUqnasM=</ofd:CheckValue>
+			</ofd:Reference>
+		</ofd:References>
+		<ofd:StampAnnot ID="2" PageRef="1" Boundary="297 171 43 43"/>
+		<ofd:Seal>
+			<ofd:BaseLoc>Seal.esl</ofd:BaseLoc>
+		</ofd:Seal>
+	</ofd:SignedInfo>
+	<ofd:SignedValue>SignedValue.dat</ofd:SignedValue>
+</ofd:Signature>

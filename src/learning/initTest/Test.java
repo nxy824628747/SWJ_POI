@@ -1,0 +1,1 @@
+package learning.initTest;public class Test {    public static void main(String[] args){        TestSon s=new TestSon("i am son");        System.out.println(s.book);    }}

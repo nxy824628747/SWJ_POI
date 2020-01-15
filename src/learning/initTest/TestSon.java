@@ -1,0 +1,1 @@
+package learning.initTest;public class TestSon extends TestFather {    {        System.out.println("我是子类语句块");    }    static{        System.out.println("我是子类静态语句块");    }    TestSon(String s){        super(s);        System.out.println("我是子类构造函数  "+s);    }}

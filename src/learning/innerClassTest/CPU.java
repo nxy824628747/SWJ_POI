@@ -1,0 +1,1 @@
+package learning.innerClassTest;public interface CPU {    public String getVersion();}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ofd:Signatures xmlns:ofd="http://www.ofdspec.org">
+	<ofd:MaxSignId>3</ofd:MaxSignId>
+	<ofd:Signature ID="1" BaseLoc="Signs/Sign_0/Signature.xml"/>
+	<ofd:Signature ID="2" BaseLoc="Signs/Sign_1/Signature.xml"/>
+</ofd:Signatures>

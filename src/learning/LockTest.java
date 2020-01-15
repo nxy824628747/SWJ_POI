@@ -1,0 +1,1 @@
+package learning;import java.util.concurrent.Semaphore;public class LockTest {    Semaphore s=new Semaphore(5);}

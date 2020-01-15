@@ -1,0 +1,1 @@
+package learning.decorator;public class TurnOnWipers extends CarDecorator {    TurnOnWipers(Car car){        super(car);    }    @Override    public void run(){        checkUp();        System.out.println("开启雨刷");        car.run();    }}

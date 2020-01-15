@@ -1,0 +1,1 @@
+package learning.viewer;/***   @Author Nyr*   @Date 2019/11/26 19:21*   @Description 观察者抽象*/public interface Obsever {    /**    *   @Author Nxy    *   @Date 2019/11/26 19:21    *   @Param msg:通知消息    *   @Return    *   @Exception    *   @Description 接收观察者通知的方法    */    public void update(String msg);}

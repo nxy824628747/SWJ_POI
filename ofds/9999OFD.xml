@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ofd:OFD xmlns:ofd="http://www.ofdspec.org" DocType="OFD" Version="1.0">
+	<ofd:DocBody>
+		<ofd:DocInfo>
+			<ofd:DocID>D88FC70B0384472890B66D3226110A52</ofd:DocID>
+			<ofd:Title>成品油测试</ofd:Title>
+			<ofd:Author>浪潮电子证照管理与共享系统</ofd:Author>
+			<ofd:CreationDate>2019-08-16</ofd:CreationDate>
+			<ofd:CreatorVersion>V1.0</ofd:CreatorVersion>
+			<ofd:CustomDatas>
+				<ofd:CustomData Name="Certificate_Name">成品油测试</ofd:CustomData>
+				<ofd:CustomData Name="Certificate_Issuing_Organization">青岛市工业和信息化局</ofd:CustomData>
+				<ofd:CustomData Name="Certificate_Holder_Code">37078119940329077X</ofd:CustomData>
+				<ofd:CustomData Name="Certificate_Name_Code">				</ofd:CustomData>
+				<ofd:CustomData Name="Certificate_Issuing_Organization_Code">QD370200JXW</ofd:CustomData>
+				<ofd:CustomData Name="_FA_ZHENG_SHI_JIAN">2019-08-16</ofd:CustomData>
+				<ofd:CustomData Name="_QI_YE_MING_CHEN">浪潮测试牛</ofd:CustomData>
+				<ofd:CustomData Name="_DI_ZHI">浪潮测试牛</ofd:CustomData>
+				<ofd:CustomData Name="_ER_WEI_MA">编号浪潮测试牛;企业名称浪潮测试牛;地址浪潮测试牛;法定代表人浪潮测试牛;有效期自2019-08-16;有效期至2020-08-16;发证时间2019-08-16;从事业务浪潮测试牛</ofd:CustomData>
+				<ofd:CustomData Name="_CONG_SHI_YE_WU">浪潮测试牛</ofd:CustomData>
+				<ofd:CustomData Name="Certificate_Holder_Code_Type">10</ofd:CustomData>
+				<ofd:CustomData Name="Effective_Date">2019-08-16</ofd:CustomData>
+				<ofd:CustomData Name="Certificate_Holder_Code_Type_Name">身份证</ofd:CustomData>
+				<ofd:CustomData Name="Issued_Date">2019-08-16</ofd:CustomData>
+				<ofd:CustomData Name="Expiring_Date">2020-08-16</ofd:CustomData>
+				<ofd:CustomData Name="Certificate_Holder_Name">浪潮测试牛</ofd:CustomData>
+				<ofd:CustomData Name="_YOU_XIAO_QI_ZI">2019-08-16</ofd:CustomData>
+				<ofd:CustomData Name="_BIAN_HAO">浪潮测试牛</ofd:CustomData>
+				<ofd:CustomData Name="_YOU_XIAO_QI_ZHI">2020-08-16</ofd:CustomData>
+				<ofd:CustomData Name="Certificate_Identifier">QD370200JXW_QD370200JXW-9A13E66C89AD47E7A4A9903DA8E0BC9C-20190723135220-1_浪潮测试牛_1</ofd:CustomData>
+				<ofd:CustomData Name="Certificate_Number">浪潮测试牛</ofd:CustomData>
+				<ofd:CustomData Name="_FA_DING_DAI_BIAO_REN">浪潮测试牛</ofd:CustomData>
+			</ofd:CustomDatas>
+		</ofd:DocInfo>
+		<ofd:DocRoot>Doc_0/Document.xml</ofd:DocRoot>
+		<ofd:Signatures>Doc_0/Signatures.xml</ofd:Signatures>
+	</ofd:DocBody>
+</ofd:OFD>

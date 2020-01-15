@@ -1,0 +1,1 @@
+package learning;  public class TreeNode {      int val;      TreeNode left;      TreeNode right;      TreeNode(int x) { val = x; }      TreeNode(int[] treeNums){          if(treeNums==null){              throw new NullPointerException("构建二叉树时输入数组为空！");          }          int length=treeNums.length;      }  }

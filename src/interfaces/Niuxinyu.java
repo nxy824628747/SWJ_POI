@@ -1,0 +1,1 @@
+package interfaces;public class Niuxinyu extends Object {}
