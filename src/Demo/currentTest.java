@@ -1,0 +1,1 @@
+package Demo;import java.util.HashMap;import java.util.Map;public class currentTest {    public void test() {        Map m = new HashMap();        m.keySet();    }}
