@@ -1,7 +1,5 @@
 package Demo;
 
-import org.apache.commons.compress.utils.IOUtils;
-
 import javax.activation.MimetypesFileTypeMap;
 import javax.print.*;
 import javax.print.attribute.DocAttributeSet;
@@ -62,7 +60,6 @@ public class PrintUtil {
                 PrintException pe) {
             pe.printStackTrace();
         } finally {
-            IOUtils.closeQuietly(fin);
         }
 
     }

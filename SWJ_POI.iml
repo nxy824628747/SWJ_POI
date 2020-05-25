@@ -132,8 +132,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="activation-1.1" level="project" />
-    <orderEntry type="library" name="activation-1.11" level="project" />
     <orderEntry type="library" name="fastjson-1.2.11" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

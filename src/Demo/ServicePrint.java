@@ -9,8 +9,6 @@ import java.util.List;
 import javax.print.PrintService;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.printing.Orientation;
-import org.apache.pdfbox.printing.PDFPageable;
 
 public class ServicePrint {
     public static void mai1n(String[] args) throws Exception {
@@ -44,7 +42,6 @@ public class ServicePrint {
                     }
                 }
             }
-            printJob.setPageable(new PDFPageable(document, Orientation.AUTO, false, 0));
             printJob.print();
         }catch(Exception e){
             e.printStackTrace();
