@@ -19,18 +19,34 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="刷题" />
+    <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="刷题">
+      <change afterPath="$PROJECT_DIR$/bin/learning/GuanQun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode170602.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode935.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/WangJunKai.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/GuanQun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/WangJunKai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/sortAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/sortAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nioDemo/nioSever.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/nioDemo/nioSever.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nioDemo/nioSever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nioDemo/nioSever.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/src/nioDemo/nioSever.java" />
+    </disable_hints>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,13 +58,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/nioDemo/nioSever.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1cDZen0Mxmw8ombqZApcwBObDLf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -66,20 +88,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.DeadLockTest">
-    <configuration name="BalanceTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.BalanceTreeTest" />
-      <module name="SWJ_POI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.nioSever">
     <configuration name="CombinationSum4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.CombinationSum4" />
       <module name="SWJ_POI" />
@@ -106,80 +115,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SWJ_POI" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58588" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
+    <configuration name="nioSever" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nioDemo.nioSever" />
+      <module name="SWJ_POI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nioDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BalanceTreeTest" />
       <item itemvalue="Application.CombinationSum4" />
       <item itemvalue="Application.DeadLockTest" />
-      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.nioSever" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.nioSever" />
         <item itemvalue="Application.DeadLockTest" />
         <item itemvalue="Application.CombinationSum4" />
-        <item itemvalue="Application.BalanceTreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +160,11 @@
       <workItem from="1590211444006" duration="15000" />
       <workItem from="1590212267917" duration="163000" />
       <workItem from="1590252597318" duration="28000" />
-      <workItem from="1590312092178" duration="15929000" />
+      <workItem from="1590312092178" duration="16643000" />
+      <workItem from="1590419788763" duration="4130000" />
+      <workItem from="1590544664334" duration="2413000" />
+      <workItem from="1590571226876" duration="714000" />
+      <workItem from="1590571986775" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="刷题">
       <created>1590412571454</created>
@@ -211,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590412571455</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="刷题">
+      <created>1590412759996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590412759996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +197,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -242,11 +211,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LIMIT_HISTORY" value="false" />
     <MESSAGE value="刷题" />
     <option name="LAST_COMMIT_MESSAGE" value="刷题" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Deployment" timestamp="1590571888176">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1590571888176" />
     <state x="585" y="316" key="#Notifications" timestamp="1590160182070">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -259,10 +233,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="329" y="211" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1440.900@0.0.1440.900" timestamp="1590323344070" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590312575538">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590572332159">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1590312575538" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1590572332159" />
     <state x="540" y="301" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent" timestamp="1590125029007">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -271,34 +245,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1590412718410" />
-    <state width="958" height="223" key="GridCell.Tab.0.bottom" timestamp="1590313483028">
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom" timestamp="1590572344303">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.0.1440.868@0.0.1440.868" timestamp="1590168979816" />
-    <state width="958" height="223" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590313483028" />
-    <state width="958" height="223" key="GridCell.Tab.0.center" timestamp="1590313483027">
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590572344303" />
+    <state width="1398" height="224" key="GridCell.Tab.0.center" timestamp="1590572344303">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="224" key="GridCell.Tab.0.center/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="958" height="223" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590313483027" />
-    <state width="958" height="223" key="GridCell.Tab.0.left" timestamp="1590313483026">
+    <state width="1398" height="224" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590572344303" />
+    <state width="1398" height="224" key="GridCell.Tab.0.left" timestamp="1590572344302">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="224" key="GridCell.Tab.0.left/0.0.1440.868@0.0.1440.868" timestamp="1590168979814" />
-    <state width="958" height="223" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590313483026" />
-    <state width="958" height="223" key="GridCell.Tab.0.right" timestamp="1590313483028">
+    <state width="1398" height="224" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590572344302" />
+    <state width="1398" height="224" key="GridCell.Tab.0.right" timestamp="1590572344303">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="224" key="GridCell.Tab.0.right/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="958" height="223" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590313483028" />
-    <state x="47" y="72" width="1091" height="722" key="SettingsEditor" timestamp="1590412718054">
+    <state width="1398" height="224" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590572344303" />
+    <state x="47" y="72" width="1091" height="722" key="SettingsEditor" timestamp="1590571977816">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="47" y="72" width="1091" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590412718054" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1590412575306">
+    <state x="47" y="72" width="1091" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590571977816" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1590412793458">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590412575306" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590412793458" />
     <state x="421" y="82" width="598" height="735" key="find.popup" timestamp="1590068747776">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
