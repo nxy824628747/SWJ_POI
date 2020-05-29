@@ -27,21 +27,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="刷题">
-      <changelist_data name="Nxy" email="" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/nioServer/TestClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/nioServer/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/nioServer/NioSever$ReciveRegisterType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/NioSever.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/NioSever.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/ServerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/ServerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/handler/impl/PrintMessageHandlerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/handler/impl/PrintMessageHandlerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/register/impl/HLRegisterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/register/impl/HLRegisterImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/TestClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/learning/nioServer/NioSever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/NioSever.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/learning/nioServer/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/ServerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/handler/impl/PrintMessageHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/handler/impl/PrintMessageHandlerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/register/impl/HLRegisterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/register/impl/HLRegisterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/TestClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +210,7 @@
       <workItem from="1590649003399" duration="2977000" />
       <workItem from="1590665329753" duration="12770000" />
       <workItem from="1590682156763" duration="1497000" />
-      <workItem from="1590714955755" duration="2126000" />
+      <workItem from="1590714955755" duration="5774000" />
     </task>
     <task id="LOCAL-00001" summary="刷题">
       <created>1590412571454</created>
@@ -253,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590675663701</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="刷题">
+      <created>1590719724537</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590719724537</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,26 +331,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1590412718410" />
-    <state width="1398" height="224" key="GridCell.Tab.0.bottom" timestamp="1590718429408">
+    <state width="1398" height="706" key="GridCell.Tab.0.bottom" timestamp="1590744986730">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.0.1440.868@0.0.1440.868" timestamp="1590168979816" />
-    <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590718429408" />
-    <state width="1398" height="224" key="GridCell.Tab.0.center" timestamp="1590718429406">
+    <state width="1398" height="706" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590744986730" />
+    <state width="1398" height="706" key="GridCell.Tab.0.center" timestamp="1590744986729">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="224" key="GridCell.Tab.0.center/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="1398" height="224" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590718429406" />
-    <state width="1398" height="224" key="GridCell.Tab.0.left" timestamp="1590718429405">
+    <state width="1398" height="706" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590744986729" />
+    <state width="1398" height="706" key="GridCell.Tab.0.left" timestamp="1590744986728">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="224" key="GridCell.Tab.0.left/0.0.1440.868@0.0.1440.868" timestamp="1590168979814" />
-    <state width="1398" height="224" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590718429405" />
-    <state width="1398" height="224" key="GridCell.Tab.0.right" timestamp="1590718429407">
+    <state width="1398" height="706" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590744986728" />
+    <state width="1398" height="706" key="GridCell.Tab.0.right" timestamp="1590744986729">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="224" key="GridCell.Tab.0.right/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="1398" height="224" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590718429407" />
+    <state width="1398" height="706" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590744986729" />
     <state width="1398" height="342" key="GridCell.Tab.1.bottom" timestamp="1590682130985">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -382,10 +383,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="343" y="346" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1590072306940" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590581967837">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590743012070">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590581967837" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590743012070" />
     <state x="234" y="356" key="svn.passwordDialog" timestamp="1590125066881">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -8,10 +8,8 @@ import learning.nioServer.register.impl.HLRegisterImpl;
 import java.io.IOException;
 
 public class ServerDemo {
-    public static final NioSever SERVER = new NioSever(8000, NioSever.ReciveRegisterType.HL);
-
     public static void main(String[] args) throws IOException {
-        NioSever SERVER = SERVER;
-        SERVER.start();
+        NioSever server = new NioSever(8000, NioSever.ReciveRegisterType.HL);
+        server.start();
     }
 }
