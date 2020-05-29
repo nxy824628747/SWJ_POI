@@ -23,6 +23,11 @@ public class Util {
         return false;
     }
 
+    public static String decode(ByteBuffer bb) {
+        Charset charset = Charset.forName("utf-8");
+        return charset.decode(bb).toString();
+    }
+
     public static String bufferToString(ByteBuffer buffer) {
         Charset charset = null;
         CharsetDecoder decoder = null;

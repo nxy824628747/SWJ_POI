@@ -37,6 +37,7 @@ public class HLRegisterImpl implements ReciveRegister {
         if (messageLength == 0) {
             int readLen = socketChannel.read(headCacheBuffer);
             if (Util.isFullBuffer(headCacheBuffer)) {
+                headCacheBuffer.flip();
                 messageLength = headCacheBuffer.getInt();
                 messageCacheBuffer = ByteBuffer.allocate(messageLength);
                 headCacheBuffer.clear();
@@ -44,10 +45,11 @@ public class HLRegisterImpl implements ReciveRegister {
         } else {
             int readLen = socketChannel.read(messageCacheBuffer);
             if (Util.isFullBuffer(messageCacheBuffer)) {
-                messageHandler.doHandler(socketChannel,messageCacheBuffer);
+                messageHandler.doHandler(socketChannel, messageCacheBuffer);
                 messageLength = 0;
                 headLength = 0;
                 messageCacheBuffer = null;
+                System.gc();
             }
 
         }
