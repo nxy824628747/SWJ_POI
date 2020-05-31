@@ -11,7 +11,7 @@ import java.nio.channels.SocketChannel;
 /**
  * @Author Niuxy
  * @Date 2020/5/28 8:36 下午
- * @Description 报文头标示报文长度的定界策略
+ * @Description 报文头标示报文长度的定界策略，由于存在类成员缓冲区的原因需要与连接一一绑定
  */
 public class HLRegisterImpl implements ReciveRegister {
     //报文头长度

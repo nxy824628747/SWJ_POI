@@ -13,11 +13,18 @@ public class PrintMessageHandlerImpl implements MessageHandler {
     @Override
     public void doHandler(SocketChannel socketChannel, ByteBuffer messageBuffer) throws IOException {
         String message = new String(messageBuffer.array());
+        ByteBuffer buffer;
 //        String message=Util.bufferToString(messageBuffer);
         if (!target.equals(message)) {
             System.out.println("error!: " + message);
+            buffer=ByteBuffer.allocate("error".getBytes().length);
+            buffer.put("error".getBytes());
+            socketChannel.write(buffer);
         } else {
             System.out.println("success!");
+            buffer=ByteBuffer.allocate("success".getBytes().length);
+            buffer.put("success".getBytes());
+            socketChannel.write(buffer);
         }
         messageBuffer = null;
     }

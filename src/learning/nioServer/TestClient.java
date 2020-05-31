@@ -28,7 +28,7 @@ public class TestClient {
 
     private static void sendMsg(String msg) {
         try {
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 3; i++) {
                 send(msg);
             }
         } catch (Exception e) {
@@ -45,8 +45,17 @@ public class TestClient {
         outputStream.write(ByteBuffer.allocate(4).putInt(length).array());
         Thread.sleep(100);
         outputStream.write(messageBytes);
+        System.out.println("---");
+        printArr(ByteBuffer.allocate(4).putInt(length).array());
+        printArr(messageBytes);
         outputStream.flush();
         outputStream.close();
+    }
+
+    private static void printArr(byte[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]);
+        }
     }
 
 }
