@@ -28,24 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="刷题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/NioSever.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/NioSever.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/TestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/handler/MessageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/handler/MessageHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/handler/impl/PrintMessageHandlerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/handler/impl/PrintMessageHandlerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/register/ReciveRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/register/ReciveRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/register/impl/HLRegisterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/register/impl/HLRegisterImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/util/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator$Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator$Acceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator$Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator$Handler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/NioSever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/NioSever.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/TestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/handler/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/handler/MessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/handler/impl/PrintMessageHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/handler/impl/PrintMessageHandlerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/register/ReciveRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/register/ReciveRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/register/impl/HLRegisterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/register/impl/HLRegisterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/util/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/learning/reactorNio/BasicReator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/reactorNio/BasicReator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -469,7 +451,7 @@
       <workItem from="1590983806197" duration="222000" />
       <workItem from="1590984049117" duration="12638000" />
       <workItem from="1591060106653" duration="7256000" />
-      <workItem from="1591099716842" duration="5831000" />
+      <workItem from="1591099716842" duration="7704000" />
     </task>
     <task id="LOCAL-00001" summary="刷题">
       <created>1590412571454</created>
@@ -527,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590941398220</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="刷题">
+      <created>1591109717379</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591109717379</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

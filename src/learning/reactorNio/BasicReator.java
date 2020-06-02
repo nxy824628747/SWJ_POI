@@ -174,10 +174,11 @@ public class BasicReator implements Runnable {
                 return;
             }
             //写完将兴趣移除，否则会将 CPU 跑满
-            key.interestOps(key.interestOps() & ~SelectionKey.OP_WRITE);
+//            key.interestOps(key.interestOps() & ~SelectionKey.OP_WRITE);
             writeBuffer = null;
             readResult = null;
             state = READING;
+            //写完将兴趣移除，否则会将 CPU 跑满
             key.interestOps(SelectionKey.OP_READ);
         }
     }
