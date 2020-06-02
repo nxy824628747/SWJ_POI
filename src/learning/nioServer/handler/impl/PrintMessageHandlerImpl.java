@@ -6,26 +6,26 @@ import learning.nioServer.util.Util;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
+import java.nio.charset.StandardCharsets;
 
 public class PrintMessageHandlerImpl implements MessageHandler {
     String target = "hellow server!hellow server!hellow server!hellow server!hellow server!hellow server!hellow server!hellowhellow server!hellow server!hellow server!hellow server!hellow server!hellow server!hellow";
 
     @Override
-    public void doHandler(SocketChannel socketChannel, ByteBuffer messageBuffer) throws IOException {
+    public String doHandler(SocketChannel socketChannel, ByteBuffer messageBuffer) throws Exception {
         String message = new String(messageBuffer.array());
-        ByteBuffer buffer;
-//        String message=Util.bufferToString(messageBuffer);
+        String re = "";
         if (!target.equals(message)) {
             System.out.println("error!: " + message);
-            buffer=ByteBuffer.allocate("error".getBytes().length);
-            buffer.put("error".getBytes());
-            socketChannel.write(buffer);
+            re="error&/n/*";
         } else {
             System.out.println("success!");
-            buffer=ByteBuffer.allocate("success".getBytes().length);
-            buffer.put("success".getBytes());
-            socketChannel.write(buffer);
+            re="successsuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssucc" +
+                    "esssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssucces"
+                    + "successsuccesssuccesssuccesssuccesssuccesssuccesssuccessssuccesssuccesssuccesssuccesssuccesss" +
+                    "uccesssuccesssuccesssuccesssuccesssuccesssuccess!&/n/*";
         }
         messageBuffer = null;
+        return re;
     }
 }

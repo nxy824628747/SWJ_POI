@@ -32,28 +32,34 @@ public class HLRegisterImpl implements ReciveRegister {
     }
 
     @Override
-    public void doRecive(SocketChannel socketChannel) throws Exception {
+    public String doRecive(SocketChannel socketChannel) throws Exception {
         //判断是否已读取报文头
         if (messageLength == 0) {
             int readLen = socketChannel.read(headCacheBuffer);
             if (Util.isFullBuffer(headCacheBuffer)) {
                 headCacheBuffer.flip();
-                messageLength = headCacheBuffer.getInt();
+                String messageLenthStr = Util.bytes2HexString(headCacheBuffer.array());
+//                messageLength = headCacheBuffer.getInt();
+                messageLength = Integer.parseInt(messageLenthStr, 16);
+                System.out.println(messageLength);
                 messageCacheBuffer = ByteBuffer.allocate(messageLength);
                 headCacheBuffer.clear();
+                return null;
             }
         } else {
             int readLen = socketChannel.read(messageCacheBuffer);
+            String re = "";
             if (Util.isFullBuffer(messageCacheBuffer)) {
-                messageHandler.doHandler(socketChannel, messageCacheBuffer);
+                re = messageHandler.doHandler(socketChannel, messageCacheBuffer);
                 messageLength = 0;
                 headLength = 0;
                 messageCacheBuffer = null;
                 System.gc();
+                return re;
             }
-
+            return null;
         }
-
+        return null;
     }
 
 }

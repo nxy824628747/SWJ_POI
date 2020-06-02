@@ -10,5 +10,5 @@ import java.nio.channels.SocketChannel;
  * @Description 数据接收策略
  */
 public interface ReciveRegister {
-    public void doRecive(SocketChannel socketChannel) throws Exception;
+    public String doRecive(SocketChannel socketChannel) throws Exception;
 }
