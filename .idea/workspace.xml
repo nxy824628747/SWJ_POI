@@ -19,16 +19,27 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="刷题">
+    <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="Reactor模型">
+      <change afterPath="$PROJECT_DIR$/bin/learning/TestDemo$Inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/TestDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/TestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/TestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator$Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator$Acceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator$Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator$Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/reactorNio/BasicReator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/reactorNio/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/reactorNio/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/TestClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/learning/reactorNio/BasicReator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/reactorNio/BasicReator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/reactorNio/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/reactorNio/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +66,9 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/nioDemo/nioSever.java" root0="FORCE_HIGHLIGHTING" />
@@ -84,7 +98,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -341,8 +355,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.nioServer.ServerDemo" />
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.nioServer.TestClient" />
       <module name="SWJ_POI" />
       <extension name="coverage">
         <pattern>
@@ -354,12 +368,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.nioServer.TestClient" />
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.TestDemo" />
       <module name="SWJ_POI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.nioServer.*" />
+          <option name="PATTERN" value="learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,19 +408,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ServerDemo" />
       <item itemvalue="Application.TestClient" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Util" />
       <item itemvalue="Application.YTZZAESUtil" />
+      <item itemvalue="Application.TestDemo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestClient" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.YTZZAESUtil" />
         <item itemvalue="Application.Util" />
-        <item itemvalue="Application.ServerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +465,28 @@
       <workItem from="1590983806197" duration="222000" />
       <workItem from="1590984049117" duration="12638000" />
       <workItem from="1591060106653" duration="7256000" />
-      <workItem from="1591099716842" duration="7704000" />
+      <workItem from="1591099716842" duration="8058000" />
+      <workItem from="1591147345003" duration="5890000" />
+      <workItem from="1591194265219" duration="372000" />
+      <workItem from="1591194846391" duration="396000" />
+      <workItem from="1591195266846" duration="679000" />
+      <workItem from="1591195950743" duration="206000" />
+      <workItem from="1591196159702" duration="208000" />
+      <workItem from="1591196402379" duration="226000" />
+      <workItem from="1591196632269" duration="74000" />
+      <workItem from="1591196709204" duration="68000" />
+      <workItem from="1591196780835" duration="131000" />
+      <workItem from="1591196915892" duration="153000" />
+      <workItem from="1591197131238" duration="106000" />
+      <workItem from="1591197407707" duration="714000" />
+      <workItem from="1591198445561" duration="1362000" />
+      <workItem from="1591199883386" duration="1498000" />
+      <workItem from="1591201425301" duration="84000" />
+      <workItem from="1591201512630" duration="72000" />
+      <workItem from="1591201586807" duration="26000" />
+      <workItem from="1591232233480" duration="2594000" />
+      <workItem from="1591243649087" duration="3244000" />
+      <workItem from="1591275426819" duration="6153000" />
     </task>
     <task id="LOCAL-00001" summary="刷题">
       <created>1590412571454</created>
@@ -516,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591109717379</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Reactor模型">
+      <created>1591113353243</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591113353243</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +575,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -550,7 +592,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LIMIT_HISTORY" value="false" />
     <MESSAGE value="刷题" />
-    <option name="LAST_COMMIT_MESSAGE" value="刷题" />
+    <MESSAGE value="Reactor模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reactor模型" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Deployment" timestamp="1590571888176">
@@ -577,10 +620,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1590682181519" />
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1590925107993">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1591189410068">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590925107993" />
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591189410068" />
     <state x="540" y="301" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent" timestamp="1590125029007">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -593,74 +636,90 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1590412718410" />
-    <state width="1398" height="342" key="GridCell.Tab.0.bottom" timestamp="1591108292986">
+    <state width="1398" height="338" key="GridCell.Tab.0.bottom" timestamp="1591284274668">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.849@0.0.1440.849" timestamp="1591239717572" />
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.850@0.0.1440.850" timestamp="1591026243127" />
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.851@0.0.1440.851" timestamp="1591023549196" />
     <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.0.1440.868@0.0.1440.868" timestamp="1590168979816" />
-    <state width="1398" height="342" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591108292986" />
-    <state width="1398" height="342" key="GridCell.Tab.0.center" timestamp="1591108292984">
+    <state width="1398" height="338" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591284274668" />
+    <state width="1398" height="338" key="GridCell.Tab.0.bottom/34.0.1406.900@34.0.1406.900" timestamp="1591269078848" />
+    <state width="1398" height="338" key="GridCell.Tab.0.center" timestamp="1591284274667">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.849@0.0.1440.849" timestamp="1591239717571" />
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.850@0.0.1440.850" timestamp="1591026243126" />
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.851@0.0.1440.851" timestamp="1591023549195" />
     <state width="1398" height="224" key="GridCell.Tab.0.center/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="1398" height="342" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591108292984" />
-    <state width="1398" height="342" key="GridCell.Tab.0.left" timestamp="1591108292983">
+    <state width="1398" height="338" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591284274667" />
+    <state width="1398" height="338" key="GridCell.Tab.0.center/34.0.1406.900@34.0.1406.900" timestamp="1591269078847" />
+    <state width="1398" height="338" key="GridCell.Tab.0.left" timestamp="1591284274666">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.849@0.0.1440.849" timestamp="1591239717570" />
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.850@0.0.1440.850" timestamp="1591026243123" />
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.851@0.0.1440.851" timestamp="1591023549195" />
     <state width="1398" height="224" key="GridCell.Tab.0.left/0.0.1440.868@0.0.1440.868" timestamp="1590168979814" />
-    <state width="1398" height="342" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591108292983" />
-    <state width="1398" height="342" key="GridCell.Tab.0.right" timestamp="1591108292984">
+    <state width="1398" height="338" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591284274666" />
+    <state width="1398" height="338" key="GridCell.Tab.0.left/34.0.1406.900@34.0.1406.900" timestamp="1591269078845" />
+    <state width="1398" height="338" key="GridCell.Tab.0.right" timestamp="1591284274667">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.849@0.0.1440.849" timestamp="1591239717571" />
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.850@0.0.1440.850" timestamp="1591026243126" />
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.851@0.0.1440.851" timestamp="1591023549196" />
     <state width="1398" height="224" key="GridCell.Tab.0.right/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="1398" height="342" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591108292984" />
-    <state width="1398" height="342" key="GridCell.Tab.1.bottom" timestamp="1591108292987">
+    <state width="1398" height="338" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591284274667" />
+    <state width="1398" height="338" key="GridCell.Tab.0.right/34.0.1406.900@34.0.1406.900" timestamp="1591269078847" />
+    <state width="1398" height="342" key="GridCell.Tab.1.bottom" timestamp="1591198442130">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="342" key="GridCell.Tab.1.bottom/0.0.1440.850@0.0.1440.850" timestamp="1591026243101" />
-    <state width="1398" height="342" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591108292987" />
-    <state width="1398" height="342" key="GridCell.Tab.1.center" timestamp="1591108292987">
+    <state width="1398" height="342" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591198442130" />
+    <state width="1398" height="342" key="GridCell.Tab.1.center" timestamp="1591198442129">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="342" key="GridCell.Tab.1.center/0.0.1440.850@0.0.1440.850" timestamp="1591026243100" />
-    <state width="1398" height="342" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591108292987" />
-    <state width="1398" height="342" key="GridCell.Tab.1.left" timestamp="1591108292986">
+    <state width="1398" height="342" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591198442129" />
+    <state width="1398" height="342" key="GridCell.Tab.1.left" timestamp="1591198442129">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="342" key="GridCell.Tab.1.left/0.0.1440.850@0.0.1440.850" timestamp="1591026243099" />
-    <state width="1398" height="342" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591108292986" />
-    <state width="1398" height="342" key="GridCell.Tab.1.right" timestamp="1591108292987">
+    <state width="1398" height="342" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591198442129" />
+    <state width="1398" height="342" key="GridCell.Tab.1.right" timestamp="1591198442130">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="342" key="GridCell.Tab.1.right/0.0.1440.850@0.0.1440.850" timestamp="1591026243100" />
-    <state width="1398" height="342" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591108292987" />
-    <state x="47" y="72" width="1091" height="722" key="SettingsEditor" timestamp="1590593075138">
+    <state width="1398" height="342" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591198442130" />
+    <state x="47" y="72" width="1091" height="722" key="SettingsEditor" timestamp="1591233675764">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="47" y="72" width="1091" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590593075138" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1590412793458">
+    <state x="47" y="72" width="1091" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591233675764" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1591113453389">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590412793458" />
-    <state x="421" y="82" width="598" height="735" key="find.popup" timestamp="1590068747776">
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591113453389" />
+    <state x="494" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591164836250">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="82" width="598" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1590068747776" />
+    <state x="494" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1591164836250" />
+    <state x="342" y="82" width="1098" height="735" key="find.popup" timestamp="1591201348140">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="342" y="82" width="1098" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1591201348140" />
     <state x="343" y="346" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1590072306940">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="343" y="346" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1590072306940" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1590924524532">
+    <state x="520" y="315" key="scopes" timestamp="1591201186828">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590924524532" />
+    <state x="520" y="315" key="scopes/0.0.1440.900@0.0.1440.900" timestamp="1591201186828" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591278530134">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591278530134" />
     <state x="234" y="356" key="svn.passwordDialog" timestamp="1590125066881">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -669,5 +728,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="260" y="321" key="svn4idea.checkout.options/0.0.1440.900@0.0.1440.900" timestamp="1590125108912" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SWJ_POI$Demo.ic" NAME="Demo Coverage Results" MODIFIED="1591196712175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>learning.reactorNio.*</FILTER>
+    </SUITE>
   </component>
 </project>

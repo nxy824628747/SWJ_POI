@@ -33,7 +33,7 @@ public class TestClient {
 
     private static void sendMsg(String msg) {
         try {
-            for (int i = 0; i < 1; i++) {
+            for (int i = 0; i < 20; i++) {
                 send(msg);
             }
         } catch (Exception e) {
@@ -45,7 +45,7 @@ public class TestClient {
         Socket socket = new Socket("127.0.0.1", 8000);
         byte[] messageBytes = message.getBytes();
         Integer length = messageBytes.length;
-        for (int i0 = 0; i0 < 2; i0++) {
+        for (int i0 = 0; i0 < 20; i0++) {
             System.out.println(length);
             OutputStream outputStream = socket.getOutputStream();
             String lenStr16 = Util.numToHex16(length);
