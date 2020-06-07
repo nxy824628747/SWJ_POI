@@ -26,8 +26,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="Reactor多线程模型">
+    <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="刷题">
+      <change afterPath="$PROJECT_DIR$/bin/learning/LeetCode740.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/lru/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/lru/LRUCache$LRUNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/lru/LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/lru/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/lru/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/LeetCode740.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/LeetCode740.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +337,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClient">
+  <component name="RunManager" selected="Application.Demo (1)">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.lru.Demo" />
+      <module name="SWJ_POI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.lru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.reactorNio.Demo" />
       <module name="SWJ_POI" />
@@ -369,19 +390,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.nioServer.util.Util" />
-      <module name="SWJ_POI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.nioServer.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="YTZZAESUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo.YTZZAESUtil" />
       <module name="SWJ_POI" />
@@ -398,17 +406,17 @@
     <list>
       <item itemvalue="Application.TestClient" />
       <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.Util" />
       <item itemvalue="Application.YTZZAESUtil" />
       <item itemvalue="Application.TestDemo" />
+      <item itemvalue="Application.Demo (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.TestClient" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.YTZZAESUtil" />
-        <item itemvalue="Application.Util" />
       </list>
     </recent_temporary>
   </component>
@@ -476,6 +484,7 @@
       <workItem from="1591243649087" duration="3244000" />
       <workItem from="1591275426819" duration="6643000" />
       <workItem from="1591320028011" duration="1240000" />
+      <workItem from="1591371472630" duration="12639000" />
     </task>
     <task id="LOCAL-00001" summary="刷题">
       <created>1590412571454</created>
@@ -554,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591284659791</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="刷题">
+      <created>1591371650360</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591371650360</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,10 +603,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LIMIT_HISTORY" value="false" />
-    <MESSAGE value="刷题" />
     <MESSAGE value="Reactor模型" />
     <MESSAGE value="Reactor多线程模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reactor多线程模型" />
+    <MESSAGE value="刷题" />
+    <option name="LAST_COMMIT_MESSAGE" value="刷题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Deployment" timestamp="1590571888176">
@@ -625,70 +641,70 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="540" y="301" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent/0.0.1440.900@0.0.1440.900" timestamp="1590125029007" />
-    <state width="517" height="441" key="DebuggerActiveHint" timestamp="1591106380495">
+    <state width="517" height="441" key="DebuggerActiveHint" timestamp="1591512699590">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="517" height="441" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1591106380495" />
+    <state width="517" height="441" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1591512699590" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1590412718410">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1590412718410" />
-    <state width="1398" height="338" key="GridCell.Tab.0.bottom" timestamp="1591285353123">
+    <state width="1398" height="267" key="GridCell.Tab.0.bottom" timestamp="1591515790003">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.849@0.0.1440.849" timestamp="1591239717572" />
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.850@0.0.1440.850" timestamp="1591026243127" />
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.851@0.0.1440.851" timestamp="1591023549196" />
     <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.0.1440.868@0.0.1440.868" timestamp="1590168979816" />
-    <state width="1398" height="338" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591285353123" />
+    <state width="1398" height="267" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591515790003" />
     <state width="1398" height="338" key="GridCell.Tab.0.bottom/34.0.1406.900@34.0.1406.900" timestamp="1591269078848" />
-    <state width="1398" height="338" key="GridCell.Tab.0.center" timestamp="1591285353122">
+    <state width="1398" height="267" key="GridCell.Tab.0.center" timestamp="1591515790002">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.849@0.0.1440.849" timestamp="1591239717571" />
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.850@0.0.1440.850" timestamp="1591026243126" />
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.851@0.0.1440.851" timestamp="1591023549195" />
     <state width="1398" height="224" key="GridCell.Tab.0.center/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="1398" height="338" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591285353122" />
+    <state width="1398" height="267" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591515790002" />
     <state width="1398" height="338" key="GridCell.Tab.0.center/34.0.1406.900@34.0.1406.900" timestamp="1591269078847" />
-    <state width="1398" height="338" key="GridCell.Tab.0.left" timestamp="1591285353122">
+    <state width="1398" height="267" key="GridCell.Tab.0.left" timestamp="1591515790001">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.849@0.0.1440.849" timestamp="1591239717570" />
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.850@0.0.1440.850" timestamp="1591026243123" />
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.851@0.0.1440.851" timestamp="1591023549195" />
     <state width="1398" height="224" key="GridCell.Tab.0.left/0.0.1440.868@0.0.1440.868" timestamp="1590168979814" />
-    <state width="1398" height="338" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591285353122" />
+    <state width="1398" height="267" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591515790001" />
     <state width="1398" height="338" key="GridCell.Tab.0.left/34.0.1406.900@34.0.1406.900" timestamp="1591269078845" />
-    <state width="1398" height="338" key="GridCell.Tab.0.right" timestamp="1591285353123">
+    <state width="1398" height="267" key="GridCell.Tab.0.right" timestamp="1591515790002">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.849@0.0.1440.849" timestamp="1591239717571" />
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.850@0.0.1440.850" timestamp="1591026243126" />
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.851@0.0.1440.851" timestamp="1591023549196" />
     <state width="1398" height="224" key="GridCell.Tab.0.right/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="1398" height="338" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591285353123" />
+    <state width="1398" height="267" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591515790002" />
     <state width="1398" height="338" key="GridCell.Tab.0.right/34.0.1406.900@34.0.1406.900" timestamp="1591269078847" />
-    <state width="1398" height="342" key="GridCell.Tab.1.bottom" timestamp="1591198442130">
+    <state width="1398" height="342" key="GridCell.Tab.1.bottom" timestamp="1591514855393">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="342" key="GridCell.Tab.1.bottom/0.0.1440.850@0.0.1440.850" timestamp="1591026243101" />
-    <state width="1398" height="342" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591198442130" />
-    <state width="1398" height="342" key="GridCell.Tab.1.center" timestamp="1591198442129">
+    <state width="1398" height="342" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591514855393" />
+    <state width="1398" height="342" key="GridCell.Tab.1.center" timestamp="1591514855393">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="342" key="GridCell.Tab.1.center/0.0.1440.850@0.0.1440.850" timestamp="1591026243100" />
-    <state width="1398" height="342" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591198442129" />
-    <state width="1398" height="342" key="GridCell.Tab.1.left" timestamp="1591198442129">
+    <state width="1398" height="342" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591514855393" />
+    <state width="1398" height="342" key="GridCell.Tab.1.left" timestamp="1591514855392">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="342" key="GridCell.Tab.1.left/0.0.1440.850@0.0.1440.850" timestamp="1591026243099" />
-    <state width="1398" height="342" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591198442129" />
-    <state width="1398" height="342" key="GridCell.Tab.1.right" timestamp="1591198442130">
+    <state width="1398" height="342" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591514855392" />
+    <state width="1398" height="342" key="GridCell.Tab.1.right" timestamp="1591514855393">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="342" key="GridCell.Tab.1.right/0.0.1440.850@0.0.1440.850" timestamp="1591026243100" />
-    <state width="1398" height="342" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591198442130" />
+    <state width="1398" height="342" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591514855393" />
     <state x="47" y="72" width="1091" height="722" key="SettingsEditor" timestamp="1591336763719">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
