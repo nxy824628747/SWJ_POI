@@ -86,7 +86,9 @@ public class LRUCache {
     }
 
     private final void removeLast() {
+        Object key=lastNode.pre.key;
         removeNode(lastNode.pre.key);
+        cacheMap.remove(key);
     }
 
     private final void removeNode(Integer key) {
@@ -96,7 +98,6 @@ public class LRUCache {
         }
         node.pre.next = node.next;
         node.next.pre = node.pre;
-        cacheMap.remove(key);
     }
 
     private void printList() {
