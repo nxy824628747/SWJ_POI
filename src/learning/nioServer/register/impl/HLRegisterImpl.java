@@ -54,7 +54,6 @@ public class HLRegisterImpl implements ReciveRegister {
                 messageLength = 0;
                 headLength = 0;
                 messageCacheBuffer = null;
-                System.gc();
                 return re;
             }
             return null;

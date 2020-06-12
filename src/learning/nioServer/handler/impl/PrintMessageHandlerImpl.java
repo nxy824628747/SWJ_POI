@@ -9,7 +9,7 @@ import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
 
 public class PrintMessageHandlerImpl implements MessageHandler {
-    String target = "hellow server!hellow server!hellow server!hellow server!hellow server!hellow server!hellow server!hellowhellow server!hellow server!hellow server!hellow server!hellow server!hellow server!hellow";
+    String target = "hellowserver!hellowserver!hellowserver!hellowserver!hellowserver!hellowserver!hellowserver!hellowhellowserver!hellowserver!hellowserver!hellowserver!hellowserver!hellowserver!hellow";
 
     @Override
     public String doHandler(SocketChannel socketChannel, ByteBuffer messageBuffer) throws Exception {
@@ -23,7 +23,7 @@ public class PrintMessageHandlerImpl implements MessageHandler {
             re="successsuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssucc" +
                     "esssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssuccesssucces"
                     + "successsuccesssuccesssuccesssuccesssuccesssuccesssuccessssuccesssuccesssuccesssuccesssuccesss" +
-                    "uccesssuccesssuccesssuccesssuccesssuccesssuccess!&/n/*";
+                    "uccesssuccesssuccesssuccesssuccesssuccesssuccess!&/n/*000";
         }
         messageBuffer = null;
         return re;

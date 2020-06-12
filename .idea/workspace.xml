@@ -27,24 +27,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="刷题">
-      <change afterPath="$PROJECT_DIR$/bin/learning/dcl/Buf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/dcl/Demo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/dcl/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/dcl/Demo2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/dcl/Demo2$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/dcl/Demo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/dcl/SynchronizedQueue$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/dcl/SynchronizedQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/dcl/Buf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/dcl/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/dcl/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/dcl/SynchronizedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/reactorNio/CurrentReactor$Acceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/reactorNio/CurrentReactor$Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/reactorNio/CurrentReactor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/reactorNio/CurrentReactor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/lru/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/lru/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/lru/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/lru/LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/dcl/Demo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/dcl/Demo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/dcl/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/dcl/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/handler/impl/PrintMessageHandlerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/handler/impl/PrintMessageHandlerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/reactorNio/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/reactorNio/Demo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/lru/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/lru/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/lru/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/lru/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/dcl/SynchronizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/dcl/SynchronizedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/handler/impl/PrintMessageHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/handler/impl/PrintMessageHandlerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/register/impl/HLRegisterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/register/impl/HLRegisterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/reactorNio/BasicReator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/reactorNio/BasicReator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/reactorNio/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/reactorNio/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -346,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo (2)">
+  <component name="RunManager" selected="Application.TestClient">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.lru.Demo" />
       <module name="SWJ_POI" />
@@ -421,11 +418,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClient" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Demo (2)" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.TestClient" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +492,15 @@
       <workItem from="1591320028011" duration="1240000" />
       <workItem from="1591371472630" duration="13736000" />
       <workItem from="1591604061540" duration="10753000" />
-      <workItem from="1591701380385" duration="3989000" />
+      <workItem from="1591701380385" duration="4949000" />
+      <workItem from="1591787227741" duration="18930000" />
+      <workItem from="1591889499105" duration="243000" />
+      <workItem from="1591889746108" duration="263000" />
+      <workItem from="1591890012911" duration="119000" />
+      <workItem from="1591890135749" duration="674000" />
+      <workItem from="1591890815068" duration="200000" />
+      <workItem from="1591891018218" duration="462000" />
+      <workItem from="1591924999212" duration="2429000" />
     </task>
     <task id="LOCAL-00001" summary="刷题">
       <created>1590412571454</created>
@@ -588,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591521016087</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="刷题">
+      <created>1591716387819</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591716387819</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,10 +663,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1590682181519" />
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1591619604275">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1591884212350">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591619604275" />
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591884212350" />
     <state x="540" y="301" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent" timestamp="1590125029007">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -667,41 +679,44 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1590412718410" />
-    <state width="1398" height="267" key="GridCell.Tab.0.bottom" timestamp="1591710187969">
+    <state width="1398" height="219" key="GridCell.Tab.0.bottom" timestamp="1591927511293">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.849@0.0.1440.849" timestamp="1591239717572" />
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.850@0.0.1440.850" timestamp="1591026243127" />
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.851@0.0.1440.851" timestamp="1591023549196" />
     <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.0.1440.868@0.0.1440.868" timestamp="1590168979816" />
-    <state width="1398" height="267" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591710187969" />
+    <state width="1398" height="219" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591927511293" />
     <state width="1398" height="338" key="GridCell.Tab.0.bottom/34.0.1406.900@34.0.1406.900" timestamp="1591269078848" />
-    <state width="1398" height="267" key="GridCell.Tab.0.center" timestamp="1591710187968">
+    <state width="1398" height="219" key="GridCell.Tab.0.center" timestamp="1591927511292">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.849@0.0.1440.849" timestamp="1591239717571" />
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.850@0.0.1440.850" timestamp="1591026243126" />
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.851@0.0.1440.851" timestamp="1591023549195" />
     <state width="1398" height="224" key="GridCell.Tab.0.center/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="1398" height="267" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591710187968" />
+    <state width="1398" height="219" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591927511292" />
+    <state width="1398" height="267" key="GridCell.Tab.0.center/33.23.1407.877@33.23.1407.877" timestamp="1591781652587" />
     <state width="1398" height="338" key="GridCell.Tab.0.center/34.0.1406.900@34.0.1406.900" timestamp="1591269078847" />
-    <state width="1398" height="267" key="GridCell.Tab.0.left" timestamp="1591710187967">
+    <state width="1398" height="219" key="GridCell.Tab.0.left" timestamp="1591927511291">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.849@0.0.1440.849" timestamp="1591239717570" />
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.850@0.0.1440.850" timestamp="1591026243123" />
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.851@0.0.1440.851" timestamp="1591023549195" />
     <state width="1398" height="224" key="GridCell.Tab.0.left/0.0.1440.868@0.0.1440.868" timestamp="1590168979814" />
-    <state width="1398" height="267" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591710187967" />
+    <state width="1398" height="219" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591927511291" />
+    <state width="1398" height="267" key="GridCell.Tab.0.left/33.23.1407.877@33.23.1407.877" timestamp="1591781652585" />
     <state width="1398" height="338" key="GridCell.Tab.0.left/34.0.1406.900@34.0.1406.900" timestamp="1591269078845" />
-    <state width="1398" height="267" key="GridCell.Tab.0.right" timestamp="1591710187969">
+    <state width="1398" height="219" key="GridCell.Tab.0.right" timestamp="1591927511292">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.849@0.0.1440.849" timestamp="1591239717571" />
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.850@0.0.1440.850" timestamp="1591026243126" />
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.851@0.0.1440.851" timestamp="1591023549196" />
     <state width="1398" height="224" key="GridCell.Tab.0.right/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="1398" height="267" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591710187969" />
+    <state width="1398" height="219" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591927511292" />
+    <state width="1398" height="267" key="GridCell.Tab.0.right/33.23.1407.877@33.23.1407.877" timestamp="1591781652588" />
     <state width="1398" height="338" key="GridCell.Tab.0.right/34.0.1406.900@34.0.1406.900" timestamp="1591269078847" />
     <state width="1398" height="342" key="GridCell.Tab.1.bottom" timestamp="1591671166526">
       <screen x="0" y="0" width="1440" height="900" />
@@ -723,18 +738,18 @@
     </state>
     <state width="1398" height="342" key="GridCell.Tab.1.right/0.0.1440.850@0.0.1440.850" timestamp="1591026243100" />
     <state width="1398" height="342" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591671166525" />
-    <state x="47" y="72" width="1091" height="722" key="SettingsEditor" timestamp="1591336763719">
+    <state x="47" y="72" width="1091" height="722" key="SettingsEditor" timestamp="1591879284396">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="47" y="72" width="1091" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591336763719" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1591320417916">
+    <state x="47" y="72" width="1091" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591879284396" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1591879052990">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591320417916" />
-    <state x="494" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591703006312">
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591879052990" />
+    <state x="494" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591879122466">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="494" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1591703006312" />
+    <state x="494" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1591879122466" />
     <state x="248" y="206" width="944" height="632" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591625991413">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -743,18 +758,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="183" y="82" width="1257" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1591631384854" />
-    <state x="343" y="346" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1590072306940">
+    <state x="343" y="346" width="614" height="272" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1591788858767">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="343" y="346" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1590072306940" />
+    <state x="343" y="346" width="614" height="272" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1591788858767" />
     <state x="520" y="315" key="scopes" timestamp="1591201186828">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="520" y="315" key="scopes/0.0.1440.900@0.0.1440.900" timestamp="1591201186828" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591278530134">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591885070964">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591278530134" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591885070964" />
     <state x="234" y="356" key="svn.passwordDialog" timestamp="1590125066881">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

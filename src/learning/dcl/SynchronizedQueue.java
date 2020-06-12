@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Author Niuxy
+ * @Author Niuxyfunc
  * @Date 2020/6/8 8:54 下午
  * @Description 基于双向链表的简单 FIFO 队列
  * 锁的粒度很粗，仅针对最上层操作进行互斥同步关系规划

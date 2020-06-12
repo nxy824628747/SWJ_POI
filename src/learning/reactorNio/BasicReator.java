@@ -19,7 +19,7 @@ import java.util.concurrent.Executors;
  * @Description 最基础的 reactor 模型
  * 本模型不负责 serverSocket 与 selector 的初始化
  * 入口处的并发需要通过负载策略将 socketChannel 的事件注册到不同的 selector 上，待验证
- * selector 底层使用的是 OS 提供给我们的事件通知器
+ * selector 底层使用的是 OS 提供给我们的事件通知器，比如 epoll
  */
 public class BasicReator implements Runnable {
     ServerSocketChannel serverSocketChannel;
