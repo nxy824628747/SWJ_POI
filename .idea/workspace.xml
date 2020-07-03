@@ -19,37 +19,32 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="状态转移方程的定义">
-      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode0105.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode232$MyQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode232.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode243.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode31.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode413.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode646.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode673$An.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode673.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/learning/LeetcodeF1611.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode0105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode1372.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode232.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode243.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode413.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode646.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode673.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/LeetcodeF1611.java" afterDir="false" />
+    <list default="true" id="42daabdc-35ec-4519-afbc-50cb14ed8af4" name="Default Changelist" comment="刷题">
+      <change afterPath="$PROJECT_DIR$/bin/Demo/UploadUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Demo/UploadUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode1372.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode416$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/learning/Leetcode416.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo/UploadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode1617.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode189.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode216.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode416.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode647.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/Leetcode88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/LeetcodeJZOffer12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/SigmentTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/learning/LeetCode740.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/LeetCode740.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/Leetcode873.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/Leetcode873.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/learning/nioServer/ServerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/learning/nioServer/ServerDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SWJ_POI_jar/SWJ_POI.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/Leetcode873.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/Leetcode873.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/nioServer/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/nioServer/ServerDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,20 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClient">
-    <configuration name="Leetcode0105" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.Leetcode0105" />
-      <module name="SWJ_POI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Leetcode416">
     <configuration name="Leetcode243" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.Leetcode243" />
       <module name="SWJ_POI" />
@@ -378,8 +360,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode673" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.Leetcode673" />
+    <configuration name="Leetcode416" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.Leetcode416" />
       <module name="SWJ_POI" />
       <extension name="coverage">
         <pattern>
@@ -417,20 +399,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UploadUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo.UploadUtil" />
+      <module name="SWJ_POI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Leetcode673" />
-      <item itemvalue="Application.Leetcode0105" />
       <item itemvalue="Application.Leetcode243" />
       <item itemvalue="Application.ServerDemo" />
       <item itemvalue="Application.TestClient" />
+      <item itemvalue="Application.UploadUtil" />
+      <item itemvalue="Application.Leetcode416" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode416" />
+        <item itemvalue="Application.UploadUtil" />
         <item itemvalue="Application.TestClient" />
         <item itemvalue="Application.ServerDemo" />
         <item itemvalue="Application.Leetcode243" />
-        <item itemvalue="Application.Leetcode0105" />
-        <item itemvalue="Application.Leetcode673" />
       </list>
     </recent_temporary>
   </component>
@@ -520,7 +515,10 @@
       <workItem from="1592990202221" duration="590000" />
       <workItem from="1593103732185" duration="10293000" />
       <workItem from="1593266346702" duration="634000" />
-      <workItem from="1593345425859" duration="7489000" />
+      <workItem from="1593345425859" duration="7730000" />
+      <workItem from="1593400525644" duration="1003000" />
+      <workItem from="1593410333260" duration="34914000" />
+      <workItem from="1593751554407" duration="1666000" />
     </task>
     <task id="LOCAL-00001" summary="刷题">
       <created>1590412571454</created>
@@ -634,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592312767515</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="刷题">
+      <created>1593359966072</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593359966072</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +656,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -669,10 +674,10 @@
     <option name="LIMIT_HISTORY" value="false" />
     <MESSAGE value="Reactor模型" />
     <MESSAGE value="Reactor多线程模型" />
-    <MESSAGE value="刷题" />
     <MESSAGE value="多路reactor" />
     <MESSAGE value="状态转移方程的定义" />
-    <option name="LAST_COMMIT_MESSAGE" value="状态转移方程的定义" />
+    <MESSAGE value="刷题" />
+    <option name="LAST_COMMIT_MESSAGE" value="刷题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Deployment" timestamp="1590571888176">
@@ -715,47 +720,47 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1590412718410" />
-    <state width="1398" height="219" key="GridCell.Tab.0.bottom" timestamp="1593265854629">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="219" key="GridCell.Tab.0.bottom" timestamp="1593695531084">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.849@0.0.1440.849" timestamp="1591239717572" />
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.850@0.0.1440.850" timestamp="1591026243127" />
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.851@0.0.1440.851" timestamp="1591023549196" />
     <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.0.1440.868@0.0.1440.868" timestamp="1590168979816" />
-    <state width="1398" height="219" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593265854629" />
-    <state width="1398" height="219" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591971111270" />
+    <state width="1398" height="219" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593431413425" />
+    <state width="1398" height="219" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593695531084" />
     <state width="1398" height="338" key="GridCell.Tab.0.bottom/34.0.1406.900@34.0.1406.900" timestamp="1591269078848" />
-    <state width="1398" height="219" key="GridCell.Tab.0.center" timestamp="1593265854628">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="219" key="GridCell.Tab.0.center" timestamp="1593695531083">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.849@0.0.1440.849" timestamp="1591239717571" />
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.850@0.0.1440.850" timestamp="1591026243126" />
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.851@0.0.1440.851" timestamp="1591023549195" />
     <state width="1398" height="224" key="GridCell.Tab.0.center/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="1398" height="219" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593265854628" />
-    <state width="1398" height="219" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591971111269" />
+    <state width="1398" height="219" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593431413423" />
+    <state width="1398" height="219" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593695531083" />
     <state width="1398" height="267" key="GridCell.Tab.0.center/33.23.1407.877@33.23.1407.877" timestamp="1591781652587" />
     <state width="1398" height="338" key="GridCell.Tab.0.center/34.0.1406.900@34.0.1406.900" timestamp="1591269078847" />
-    <state width="1398" height="219" key="GridCell.Tab.0.left" timestamp="1593265854627">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="219" key="GridCell.Tab.0.left" timestamp="1593695531082">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.849@0.0.1440.849" timestamp="1591239717570" />
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.850@0.0.1440.850" timestamp="1591026243123" />
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.851@0.0.1440.851" timestamp="1591023549195" />
     <state width="1398" height="224" key="GridCell.Tab.0.left/0.0.1440.868@0.0.1440.868" timestamp="1590168979814" />
-    <state width="1398" height="219" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593265854627" />
-    <state width="1398" height="219" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591971111267" />
+    <state width="1398" height="219" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593431413422" />
+    <state width="1398" height="219" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593695531082" />
     <state width="1398" height="267" key="GridCell.Tab.0.left/33.23.1407.877@33.23.1407.877" timestamp="1591781652585" />
     <state width="1398" height="338" key="GridCell.Tab.0.left/34.0.1406.900@34.0.1406.900" timestamp="1591269078845" />
-    <state width="1398" height="219" key="GridCell.Tab.0.right" timestamp="1593265854628">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="219" key="GridCell.Tab.0.right" timestamp="1593695531084">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.849@0.0.1440.849" timestamp="1591239717571" />
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.850@0.0.1440.850" timestamp="1591026243126" />
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.851@0.0.1440.851" timestamp="1591023549196" />
     <state width="1398" height="224" key="GridCell.Tab.0.right/0.0.1440.868@0.0.1440.868" timestamp="1590168979815" />
-    <state width="1398" height="219" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593265854628" />
-    <state width="1398" height="219" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591971111269" />
+    <state width="1398" height="219" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593431413424" />
+    <state width="1398" height="219" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593695531084" />
     <state width="1398" height="267" key="GridCell.Tab.0.right/33.23.1407.877@33.23.1407.877" timestamp="1591781652588" />
     <state width="1398" height="338" key="GridCell.Tab.0.right/34.0.1406.900@34.0.1406.900" timestamp="1591269078847" />
     <state width="1398" height="342" key="GridCell.Tab.1.bottom" timestamp="1592986755741">
@@ -782,10 +787,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="47" y="72" width="1091" height="722" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591879284396" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1592312781566">
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1593359974324">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592312781566" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593359974324" />
     <state x="494" y="367" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591879122466">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -794,10 +799,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="248" y="206" width="944" height="632" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1591625991413" />
-    <state x="183" y="82" width="1257" height="735" key="find.popup" timestamp="1591631384854">
+    <state x="220" y="82" width="1220" height="735" key="find.popup" timestamp="1593423972247">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="183" y="82" width="1257" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1591631384854" />
+    <state x="220" y="82" width="1220" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1593423972247" />
     <state x="343" y="346" width="614" height="272" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1591788858767">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
