@@ -1,1 +1,1 @@
-package learning.initTest;public class Test {    public static void main(String[] args){        TestSon s=new TestSon("i am son");        System.out.println(s.book);    }}
+package learning.initTest;public class Test {    public static void main(String[] args){        TestSon s=new TestSon("i am son");        System.out.println(s.book);    }    class A{        B b;        A(B b){            this.b=b;        }    }    class B{        A a;        B(A a){            this.a=a;        }    }}

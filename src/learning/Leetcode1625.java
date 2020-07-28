@@ -35,7 +35,6 @@ public class Leetcode1625 {
             length = 0;
         }
 
-
         public int get(int key) {
             if (!pool.containsKey(key)) {
                 return -1;
