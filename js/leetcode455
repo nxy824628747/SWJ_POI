@@ -1,0 +1,24 @@
+var findContentChildren = function (g, s) {
+    if (g.length == 0 || s.length == 0) {
+        return 0;
+    }
+    let f = (a,b)=>{return a-b;}
+    g.sort(f);
+    s.sort(f);
+    let re = 0;
+    let sPoint = 0;
+    let sMax = s[s.length - 1];
+    for (let i = 0; i < g.length; i++) {
+        if (g[i] > sMax) {
+            break;
+        }
+        for (let j = sPoint; j < s.length; j++) {
+            if (s[j] >= g[i]) {
+                sPoint = j + 1;
+                re++;
+                break;
+            }
+        }
+    }
+    return re;
+};

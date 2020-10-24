@@ -1,0 +1,46 @@
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ */
+var sumOfLeftLeaves = function (root) {
+    if (root == null) return 0;
+    return dfs(root);
+};
+
+var dfs = function (node) {
+    let res = 0;
+    if (node.left != null) {
+        if (isLeaf(node.left)) res += node.left.val;
+        else res += dfs(node.left);
+    }
+    if (node.right != null && !isLeaf(node.right)) res += dfs(node.right);
+    return res;
+}
+
+var isLeaf = function (node) {
+    return node.left == null && node.right == null;
+}
+
+
+var sumOfLeftLeaves = function (root) {
+    if (root == null) return 0;
+    let queue = [];
+    queue.push(root);
+    let res = 0;
+    while (queue.length > 0) {
+        let node = queue.shift();
+        if (node.left != null) {
+            if (isLeaf(node.left)) res += node.left.val;
+            else queue.push(node.left);
+        }
+        if (node.right != null && !isLeaf(node.right)) queue.push(node.right);
+    }
+    return res;
+}

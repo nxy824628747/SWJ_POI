@@ -1,0 +1,21 @@
+var kConcatenationMaxSum = function (arr, k) {
+    let sum = arr[0];
+    let newK = k > 2 ? 2 : k;
+    let pre = 0;
+    let an = 0;
+    for (let i = 0; i < newK; i++) {
+        if (pre > 0) {
+            pre = pre + arr[i % arr.length];
+        } else {
+            pre = arr[i % arr.length];
+        }
+        an = an > pre ? an : pre;
+        if (i < arr.length) {
+            sum += arr[i];
+        }
+    }
+    while (sum > 0 && --k >= 2) {
+        an = an + sum;
+    }
+    return an;
+};

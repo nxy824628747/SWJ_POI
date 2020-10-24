@@ -1,0 +1,21 @@
+var maxNonOverlapping = function (nums, target) {
+    let re = 0;
+    let point = 0;
+    while (point < nums.length) {
+        let sums = new Set();
+        sums.add(0);
+        let sum = 0;
+        while (point < nums.length) {
+            sum += nums[point];
+            if (sums.has(sum - target)) {
+                re++;
+                break;
+            } else {
+                sums.add(sum);
+                point++;
+            }
+        }
+        point++;
+    }
+    return re;
+};

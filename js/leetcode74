@@ -1,0 +1,36 @@
+var searchMatrix = function (matrix, target) {
+    if (matrix.length == 0 || matrix[0].length == 0) {
+        return false;
+    }
+    return search(matrix, target, 0);
+};
+
+var search = function (arr, target, row) {
+    if (row == arr.length) {
+        return false;
+    }
+    if (arr[row][arr[0].length - 1] < target) {
+        return search(arr, target, row + 1);
+    }
+    let begin = 0;
+    let end = arr[row].length;
+    let mid = Math.floor((begin + end) / 2);
+    let currentRow = arr[row];
+    while (begin <= end) {
+        if (begin == end || begin == end - 1) {
+            if (currentRow[begin] == target || currentRow[end] == target) {
+                return true;
+            }
+            return false;
+        }
+        if (currentRow[mid] == target) {
+            return true;
+        }
+        if (currentRow[mid] > target) {
+            end = mid;
+        } else {
+            begin = mid;
+        }
+        mid = Math.floor((begin + end) / 2);
+    }
+}

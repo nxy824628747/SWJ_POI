@@ -1,0 +1,22 @@
+/**
+ * @param {number} n
+ * @return {boolean}
+ */
+var isHappy = function (n) {
+    let ne = next(n);
+    while (n != 1 && n != ne) {
+        n = next(n);
+        ne = next(next(ne));
+    }
+    return n == 1;
+};
+
+var next = function (n) {
+    let re = 0;
+    while (n > 0) {
+        let curr = n % 10;
+        n = Math.floor(n / 10);
+        re += curr * curr;
+    }
+    return re;
+}

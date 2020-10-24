@@ -1,0 +1,26 @@
+/**
+ * @param {string} S
+ * @return {string[]}
+ */
+var permutation = function (S) {
+    let sArr = S.split('').sort();
+    let reArr = [];
+    search(sArr, '', reArr);
+    return reArr;
+};
+
+var search = function (str, reStr, reArr) {
+    if (str.length == reStr.length) {
+        reArr.push(reStr);
+        return;
+    }
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] == '-' || (i > 0 && str[i] == str[i - 1])) {
+            continue;
+        }
+        let currentChar = str[i];
+        str[i] = '-';
+        search(str, reStr + currentChar,reArr);
+        str[i] = currentChar;
+    }
+}

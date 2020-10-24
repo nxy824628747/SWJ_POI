@@ -1,0 +1,28 @@
+var findCircleNum = function (M) {
+    let len = M.length;
+    let parents = [];
+    for (let i = 0; i < len; i++) parents[i] = i;
+    for (let i = 0; i < len; i++) {
+        for (let j = 0; j < len; j++) {
+            if (M[i][j] == 1) union(i, j,parents);
+        }
+    }
+    let re = 0;
+    for (let i = 0; i < len; i++) {
+        if (parents[i] == i) re++;
+    }
+    return re;
+};
+
+
+var union = function (point0, point1, parents) {
+    let root0 = find(point0, parents);
+    let root1 = find(point1, parents);
+    if (root0 == root1) return;
+    parents[root1] = root0;
+}
+
+var find = function (point, parents) {
+    if (parents[point] == point) return point;
+    return parents[point] = find(parents[point], parents);
+}

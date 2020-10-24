@@ -1,0 +1,35 @@
+function isAlin(s) {
+    let begin = 0;
+    let end = s.length - 1;
+    while (begin < end) {
+        if (s.charAt(begin) != s.charAt(end)) {
+            return false;
+        }
+        begin++;
+        end--;
+    }
+    return true;
+}
+
+function findPalidrome(s, begin, stack, reList) {
+    if (begin == s.length) {
+        reList.push(stack.slice());
+        return;
+    }
+
+    for (let i = begin + 1; i <= s.length; i++) {
+        let sIn = s.slice(begin, i);
+        if (!isAlin(sIn)) {
+            continue;
+        }
+        stack.push(sIn);
+        findPalidrome(s, i, stack, reList);
+        stack.pop();
+    }
+}
+
+var partition = function(s) {
+    let reList = [];
+    findPalidrome(s,0,[],reList);
+    return reList
+}

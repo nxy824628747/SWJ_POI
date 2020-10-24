@@ -1,0 +1,20 @@
+var reArr = [];
+var generateParenthesis = function (n) {
+    search(0, n, n, "");
+    return reArr;
+};
+
+var search = function (before, beforeN, n, re) {
+    if (n === 0) {
+        reArr.push(re);
+        return;
+    }
+    if (beforeN > 0 && before == 0) {
+        search(before + 1, beforeN - 1, n, re + '(');
+    } else {
+        search(before - 1, beforeN, n - 1, re + ')');
+        if (beforeN > 0) {
+            search(before + 1, beforeN - 1, n, re + '(');
+        }
+    }
+}

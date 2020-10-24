@@ -1,0 +1,44 @@
+/**
+ * @param {number[]} days
+ * @param {number[]} costs
+ * @return {number}
+ */
+var mincostTickets = function (days, costs) {
+    let len = days.length;
+    let cache = new Array(len).fill(0);
+    cache[0]=costs[0];
+    for (let end = 1; end < len; end++) {
+        let currentMin = Number.MAX_SAFE_INTEGER;
+        for (let begin = 0; begin <= end; begin++) {
+            let current = cost(costs,days[begin], days[end]);
+            if (begin === 0) {
+                currentMin = currentMin < current ? currentMin : current;
+            } else {
+                current = current + cache[begin - 1];
+                currentMin = currentMin < current ? currentMin : current;
+            }
+        }
+        cache[end]=currentMin;
+    }
+    return cache[len - 1];
+};
+
+var cost = function (costs, begin, end) {
+    if (begin == end) {
+        return costs[0];
+    }
+    let travelDay = end - begin + 1;
+    let thir = Math.floor(travelDay / 30);
+    let seven = Math.floor((travelDay % 30) / 7);
+    let one = travelDay - thir * 30 - seven * 7;
+    let cost1 = thir * costs[2] + seven * costs[1] + one * costs[0];
+    let cost2 = Math.floor(travelDay / 7) * costs[1] + (travelDay % 7) * costs[0];
+    let cost3 = travelDay * costs[0];
+    let min1 = cost1 < cost2 ? cost1 : cost2;
+    min1 = min1 < cost3 ? min1 : cost3;
+    let cost4 = (thir + ((travelDay % 30) > 0 ? 1 : 0)) * costs[2];
+    let cost5 = (Math.floor(travelDay / 7 )+ (travelDay % 7 > 0 ? 1 : 0)) * costs[1];
+    min1 = min1 < cost4 ? min1 : cost4;
+    min1 = min1 < cost5 ? min1 : cost5;
+    return min1;
+}

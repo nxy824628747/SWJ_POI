@@ -1,0 +1,28 @@
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+var findSubsequences = function (nums) {
+    reArr = [];
+    search(nums, -1, []);
+    return reArr;
+};
+
+var reArr;
+
+var search = function (nums, point, reNum) {
+    let pre = reNum.length == 0 ? -101 : reNum[reNum.length - 1];
+    let set = new Set();
+    for (let i = point + 1; i < nums.length; i++) {
+        if (nums[i] < pre || set.has(nums[i])) {
+            continue;
+        }
+        reNum.push(nums[i]);
+        set.add(nums[i]);
+        if (reNum.length > 1) {
+            reArr.push(reNum.slice());
+        }
+        search(nums, i, reNum);
+        prePop = reNum.pop();
+    }
+}

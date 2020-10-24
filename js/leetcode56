@@ -1,0 +1,22 @@
+/**
+ * @param {number[][]} intervals
+ * @return {number[][]}
+ */
+var merge = function (intervals) {
+    intervals.sort((v1, v2) => v1[0] - v2[0]);
+    let reArr = [];
+    let len = intervals.length;
+    let point = -1;
+    for (let i = 0; i < len; i++) {
+        if (point == -1) {
+            reArr.push(intervals[i]);
+        } else if (intervals[i][0] > reArr[point][1]) {
+            reArr.push(intervals[i]);
+        } else {
+            reArr[point][1] = intervals[i][1] > reArr[point][1] ? intervals[i][1] : reArr[point][1];
+            point--;
+        }
+        point++;
+    }
+    return reArr;
+};

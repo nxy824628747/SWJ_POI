@@ -1,0 +1,97 @@
+/**
+ * @param {character[][]} grid
+ * @return {number}
+ */
+var numIslands = function (grid) {
+    if (grid.length == 0 || grid[0].length == 0) {
+        return 0;
+    }
+    let unionFound = new UnionFound(grid);
+    for (let i = 0; i < grid.length; i++) {
+        for (let j = 0; j < grid[0].length; j++) {
+            if (grid[i][j] == 1) {
+                let point = i * grid[0].length + j;
+                if (i > 0 && grid[i - 1][j] == 1) {
+                    unionFound.union(point, point - grid[0].length);
+                }
+                if (i < grid.length - 1 && grid[i + 1][j] == 1) {
+                    unionFound.union(point, point + grid[0].length);
+                }
+                if (j > 0 && grid[i][j - 1] == 1) {
+                    unionFound.union(point, point - 1);
+                }
+                if (j < grid[0].length && grid[i][j + 1] == 1) {
+                    unionFound.union(point, point + 1);
+                }
+            }
+        }
+    }
+    return unionFound.rootNum;
+}
+
+var UnionFound = function (grid) {
+    this.parent = new Array(grid.length * grid[0].length).fill(-1);
+    this.rootNum = 0;
+    for (let i = 0; i < grid.length; i++) {
+        for (let j = 0; j < grid[0].length; j++) {
+            if (grid[i][j] == 1) {
+                let point = i * grid[0].length + j;
+                this.parent[point] = point;
+                this.rootNum++;
+            }
+        }
+    }
+
+    this.find = function (num) {
+        if (this.parent[num] == num) {
+            return num;
+        }
+        return this.find(this.parent[num]);
+    }
+
+    this.union = function (num1, num2) {
+        let root1 = this.find(num1);
+        let root2 = this.find(num2);
+        if (root1 == root2) {
+            return;
+        }
+        this.parent[root2] = root1;
+        this.rootNum--;
+    }
+}
+
+
+/**
+ * @param {character[][]} grid
+ * @return {number}
+ */
+var numIslandsDFS = function (grid) {
+    let re = 0;
+    for (let x = 0; x < grid.length; x++) {
+        for (let y = 0; y < grid[0].length; y++) {
+            if (grid[x][y] == 1) {
+                search(grid, x, y);
+                re++;
+            }
+        }
+    }
+    return re;
+};
+
+var search = function (grid, x, y) {
+    if (!isInBoard(grid, x, y) || grid[x][y] == '0') {
+        return;
+    }
+    grid[x][y] = '0';
+    search(grid, x - 1, y);
+    search(grid, x + 1, y);
+    search(grid, x, y - 1);
+    search(grid, x, y + 1);
+}
+
+var isInBoard = function (grid, x, y) {
+    if (x < 0 || y < 0 || x >= grid.length || y >= grid[0].length) {
+        return false;
+    }
+    return true;
+}

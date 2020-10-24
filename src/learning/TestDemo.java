@@ -30,4 +30,37 @@ public class TestDemo {
             return this.name;
         }
     }
+
+    public static class Leetcode1048 {
+        public int longestStrChain(String[] words) {
+            return 0;
+        }
+
+        private boolean isStr(String str1, String str2) {
+            if (Math.abs(str1.length() - str2.length()) > 1) {
+                return false;
+            }
+            if (str1.length() < str2.length()) {
+                String temp = str1;
+                str1 = str2;
+                str2 = temp;
+            }
+            boolean isChanged = false;
+            int point1 = 0;
+            int point2 = 0;
+            while (point2 < str2.length()) {
+                if (str1.charAt(point1) != str2.charAt(point2)) {
+                    if (isChanged) {
+                        return false;
+                    }
+                    isChanged = true;
+                    point1++;
+                    continue;
+                }
+                point1++;
+                point2++;
+            }
+            return true;
+        }
+    }
 }
